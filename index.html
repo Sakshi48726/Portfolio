@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Sharda Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:50;
+            padding:0;
+        }
+        body{
+            background-color: rgb(23, 23, 60);
+            color:rgb(241, 237, 237);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            height: 40px;
+            background-color: rgb(101, 180, 180);
+        }
+        nav ul{
+            display:flex;
+            justify-content:center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        
+        nav ul a{
+            text-decoration: none;
+            color: bisque;
+        }
+        
+        nav ul a:hover{
+            color: rgb(9, 68, 68);
+            font-size: 1.1rem;
+        }
+
+        main hr{
+            border:0;
+            background-color: beige;
+            height: 2px;
+            margin: 60px;
+        }
+
+        .left{
+            font-size: 2rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px;
+        }
+        .leftSection{
+            font-size: 2rem;
+            width: 500px;
+            margin: 100px;
+        }
+        
+        .leftSection .button{
+            padding: 40px;
+        } 
+
+        .leftSection .btn{
+            padding: 10px;
+            background-color: rgb(36, 36, 52);
+            color: rgb(215, 215, 183);
+            border: 2px solid white;
+            font-size: 15px;
+            border-radius: 2px;
+            cursor:pointer;
+        }
+
+        .rightSection img{
+            width: 400px;
+            margin:39px;
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .text grey{
+            color: grey;
+        }
+        #element{
+            color: blueviolet;
+        }
+        .secondSection{
+        max-width:100 vw;
+        margin: 40px;
+        height:100vh;
+        }
+        .secondSection h1{
+            font-size: 2rem;
+            margin: 40px;
+        }
+        .secondSection  .box{
+            background-color: white;
+            width:80vw;
+            height:2px;
+            margin:56px;
+            display: flex;
+        }
+        .secondSection .vertical{
+            background-color: white;
+            height:90px;
+            width:1px;
+            margin: 0 100px;
+        }
+
+        .image-top{
+            width: 50px;
+            position: relative;
+            top: -50px;
+            left: -1px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 35px;
+            left: 5px;
+
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 50px;
+            left: 10px;
+            width: 170px;
+            color: r gb(66, 74, 87);
+            font-size: 0.8rem;
+        }
+
+        footer{
+            background-color: rgb(40, 30, 55);
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 102px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 123px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>     <nav>
+            <div class="left">Sakshi's Portfolio</div>
+            <div class="right">
+                <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi I'm <span class="purple">Sakshi Sharda</span>
+                <div>and I'm a Web Developer,</div>
+                <span id="element"></span>
+                <br>
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+            </div>
+            <div class="rightSection">
+                <img src="ig.jpeg" alt=" "
+                width:50px
+                margin:20px>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img3.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer(2010-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa enim velit autem laboriosam natus, eius vel possimus deserunt, sed nesciunt ad impedit.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="img3.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer(2014-2017)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa enim velit autem laboriosam natus, eius vel possimus deserunt, sed nesciunt ad impedit.
+                    </div>
+                </div> 
+
+                <div class="vertical">
+                    <img class="image-top" src="img3.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer(2010-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa enim velit autem laboriosam natus, eius vel possimus deserunt, sed nesciunt ad impedit.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="img3.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer(2014-2017)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa enim velit autem laboriosam natus, eius vel possimus deserunt, sed nesciunt ad impedit.
+                    </div>
+                </div> 
+
+                <div class="vertical">
+                    <img class="image-top" src="img3.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer(2014-2017)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa enim velit autem laboriosam natus, eius vel possimus deserunt, sed nesciunt ad impedit.
+                    </div>
+                </div> 
+
+            </div>
+                
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sakshi's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;www.sakshishardaportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Designer', '&amp; Graphic Desinger.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
